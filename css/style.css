@@ -5,7 +5,7 @@
 }
 /*body index.html*/
 body {
-  background: linear-gradient(#111, #222);
+  background: #1E0F1C;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -17,7 +17,7 @@ body::after {
   content: "";
   width: 100%;
   height: 100%;
-  background: red;
+  background: #A7001E;
   position: absolute;
   z-index: -1;
   clip-path: circle(40% at right 70%);
@@ -41,7 +41,7 @@ nav {
 }
 /*barre de naviguation:logo*/
 nav .logo {
-  color: #fff;
+  color: #E2E9C0;
   text-decoration: none;
   font-size: 32px;
   text-transform: uppercase;
@@ -55,7 +55,7 @@ nav ul li {
 }
 /*Barre de naviguation*/
 nav ul li a {
-  color: #fff;
+  color: #E2E9C0;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
@@ -67,12 +67,12 @@ nav ul li a {
   text-align: center;
   padding: 100px;
   font-family: "Bubblegum Sans", sans-serif;
-  color: #ffff;
+  color: #E2E9C0;
 }
 /*Footer de la page d'accueil*/
 footer {
   text-align: center;
-  color: #ffff;
+  color: #E2E9C0;
 }
 /* cible le ul */
 div ul ul {
@@ -96,7 +96,7 @@ li:hover > ul {
   position: absolute;
   top: 100%;
   left: 0;
-  background: red;
+  background: #1E0F1C;
 }
 /*Représente les liens */
 ul a {
@@ -114,3 +114,24 @@ div ul li ul li {
   padding-top: 15px;
   text-align: center;
 }
+.content{
+ color: #E2E9C0;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+.container h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #A7001E;
+ 
+}
+.container p{
+  font-size: 18px;
+  line-height: 25px;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+ 
